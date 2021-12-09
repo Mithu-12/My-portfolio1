@@ -21,7 +21,7 @@ const ProjectCarosel = () => {
           Responsive MERN Stack app and Implement Admin Management Page,Implement Authentication System with Firebase,Faced c a challenge to improve the Admin Management page.
           </Card.Text>
           <NavLink to='/project12'>
-          <Button className='btn btn-primary' variant="primary">Details</Button>
+          <Button className='button' style={{'text-decoration': 'none'}}>Details</Button>
           </NavLink>
         </Card.Body>
       </Card>
@@ -35,8 +35,8 @@ const ProjectCarosel = () => {
           <Card.Text>
           A good tour website became a good Responsive a MERN stack website, Faced c a challenge to improve the Admin Management page and at last solve this after 1days of practice.
           </Card.Text>
-          <NavLink to='/project11'>
-          <Button className='btn btn-primary' variant="primary">Details</Button>
+          <NavLink to='/project11' className='text-center'>
+          <Button className='button' style={{'text-decoration': 'none'}}>Details</Button>
           </NavLink>
         </Card.Body>
       </Card>
@@ -51,7 +51,7 @@ const ProjectCarosel = () => {
           Implement two Authentication system like, email-password and Google Sign in,Fully Responsive for mobile, tablet and desktop version.Implements Context API, React Hooks, Custom Hooks.
           </Card.Text>
           <NavLink to='/project10'>
-          <Button className='btn btn-primary' variant="primary">Details</Button>
+          <Button className='button' style={{'text-decoration': 'none'}}>Details</Button>
           </NavLink>
         </Card.Body>
       </Card>

@@ -3,6 +3,7 @@ import { Card, Col, Container, Row } from 'react-bootstrap';
 import img1 from '../images/img101.png'
 import img2 from '../images/img103.png'
 import img3 from '../images/img102.png'
+import Button from '@restart/ui/esm/Button';
 
 const Project10 = () => {
     return (
@@ -42,8 +43,8 @@ const Project10 = () => {
                             <li>4. Technology Used: Javascript, React, Node Js, MongoDB,  Axios, Material UI, Firebase. </li>
                         </ul>
                         </h5>
-                        <h4><a href="https://gracious-stonebraker-a982e1.netlify.app/">Live Site Link</a></h4>
-                        <h4><a href="https://github.com/Mithu-12/GYM-website">Client Site  Code Link</a></h4>
+                        <Button className='button '><a href="https://gracious-stonebraker-a982e1.netlify.app/">Live Site Link</a></Button>
+                        <Button className='button'><a href="https://github.com/Mithu-12/GYM-website">Client Site  Code Link</a></Button>
                       </div>
                     </Col>
                     

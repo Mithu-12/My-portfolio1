@@ -6,7 +6,7 @@ import img3 from '../images/img125.png'
 
 const Project12 = () => {
     return (
-        <div className='my-5 text-center'>
+        <div className='my-5'>
             <h2 className='my-5'>TIZZY SUNGLASS</h2>
             <Container>
                 <Row>
@@ -42,9 +42,9 @@ const Project12 = () => {
                             <li>4. Technology Used: Javascript, React, Node Js, MongoDB,  Axios, Material UI, Firebase. </li>
                         </ul>
                         </h5>
-                        <h4><a href="https://assignment12-fd267.web.app/">Live Site Link</a></h4>
-                        <h4><a href="https://github.com/Mithu-12/assignment-12">Client Site  Code Link</a></h4>
-                        <h4><a href="https://github.com/Mithu-12/assignment-12-server-site">Server Site Code Link</a></h4>
+                        <h6><a className='button' style={{'text-decoration': 'none'}} href="https://assignment12-fd267.web.app/">Live Site Link</a></h6>
+                        <h6><a className='button' style={{'text-decoration': 'none'}} href="https://github.com/Mithu-12/assignment-12">Client Site  Code Link</a></h6>
+                        <h6><a className='button' style={{'text-decoration': 'none'}} href="https://github.com/Mithu-12/assignment-12-server-site">Server Site Code Link</a></h6>
                      </div>
                     </Col>
                     

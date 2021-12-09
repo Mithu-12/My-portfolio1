@@ -18,24 +18,24 @@ const Services = () => {
             <div className="container">
                 <div className="row ">
                     <div className="card1  col-sm-12  col-md-4">
-                        <div data-aos='fade-right' className="box mr-2">
+                        <div data-aos='fade-right' className="box mr-2 text-center mt-0">
                             <i className="fas fa-paint-brush"></i>
-                            <h3>Web Design</h3>
-                            <h5>I have one year experience to development. I work at react.js, javascript, mongodb, nodejs, </h5>
+                            <h3>Front End Development</h3>
+                            <h5>I have one year experience to Front End Development. I work at react.js, javascript, CSS, HTML</h5>
                         </div>
                     </div>
                     <div className=" card1 col-sm-12 col-md-4">
                         <div data-aos='fade-up' className="box">
                             <i className="fas fa-paint-brush"></i>
-                            <h3>Bloger</h3>
-                            <h5>Blog is comming soon . </h5>
+                            <h3>React Developer</h3>
+                            <h5>I am a React Developer. I have one Year experience with Reactjs.  </h5>
                         </div>
                     </div>
                     <div className=" card1 col-sm-12 col-md-4">
                         <div data-aos='fade-left' className="box">
                             <i className="fas fa-code"></i>
-                            <h3>Web Development</h3>
-                            <h5></h5>
+                            <h3>MERN Stack Developer</h3>
+                            <h5>I am MERN Stack Developer. I have complete three MERN Stack Projects. I work at some backend. </h5>
                         </div>
                     </div>
                   </div>

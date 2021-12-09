@@ -67,7 +67,7 @@ const Contact = () => {
                      <Form.Label>Example textarea</Form.Label><br/>
                     <Form.Control as="textarea" rows={3} name="message" />
                 </Form.Group >
-                <Button data-aos='fade-down' className="btn btn-primary" variant="primary" type="submit">
+                <Button  className='button' style={{'text-decoration': 'none'}} variant="primary" type="submit">
                 Submit
                 </Button>
             </Form>

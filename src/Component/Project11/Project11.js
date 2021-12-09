@@ -42,9 +42,9 @@ const Project11 = () => {
                             <li>4. Technology Used: Javascript, React, Node Js, MongoDB,  Axios, Material UI, Firebase. </li>
                         </ul>
                         </h5>
-                        <h4><a href="https://assignment-10-e5999.web.app/login">Live Site Link</a></h4>
-                        <h4><a href="https://github.com/Mithu-12/Tour-Web">Client Site  Code Link</a></h4>
-                        <h4><a href="https://github.com/Mithu-12/Tour-web-server-site">Server Site Code Link</a></h4>
+                        <h6><a className='button' style={{'text-decoration': 'none'}} href="https://assignment-10-e5999.web.app/login">Live Site Link</a></h6>
+                        <h6><a className='button' style={{'text-decoration': 'none'}} href="https://github.com/Mithu-12/Tour-Web">Client Site  Code Link</a></h6>
+                        <h6><a className='button' style={{'text-decoration': 'none'}} href="https://github.com/Mithu-12/Tour-web-server-site">Server Site Code Link</a></h6>
                     
                     </div>
                     </Col>
