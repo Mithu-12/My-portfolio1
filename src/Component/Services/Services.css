@@ -1,0 +1,25 @@
+.services{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: #111 !important;
+    color: #fff;
+
+    height: 500px;
+    
+}
+.services .title{
+    color: crimson;
+    margin-top: 30px !important;
+}
+.services .service-content .box{
+    background: rgb(36, 33, 33);
+    height: 300px;
+    text-align: center;
+    padding: 15px;
+    border-radius:15px;
+}
+@media (max-width: 768px){
+    .services{
+        height: 100%;
+    }
+}

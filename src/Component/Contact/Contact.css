@@ -1,0 +1,26 @@
+.info{
+    display: inline !important;
+    text-decoration: none !important;
+}
+.myInfo{
+    display: inline-block !important;
+}
+.fab{
+    font: size 20px;
+}
+.contact{
+    color: #fff;
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+
+}
+.contact-width{
+    margin-top: 50px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .contact{
+        height:100%
+    }
+}

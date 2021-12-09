@@ -1,0 +1,54 @@
+.banner{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center !important;
+    color: #fff;
+    min-height: 500;
+    font-family: "Ubuntu", sans-serif;
+    clip-path: polygon(100% 0%, 100% 54%, 100% 86%, 50% 100%, 0 86%, 0 0);
+}
+.banner .max-width{
+    margin: auto 0 auto 40px;
+}
+.banner .banner-content .text-1{
+    font-size: 27px;
+}
+.banner .banner-content .text-2{
+    font-size: 55px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.banner .banner-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.banner .banner-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+.banner .max-width a{
+    display: inline-block;
+    color: #fff;
+    background-color: crimson;
+    padding: 12px 36px;
+    border-radius:5px;
+    margin-top: 15px;
+    border: 2px solid crimson;
+    transition: all 0.5s ease;
+}
+.text{
+    font-size: 30px;
+}
+@media screen and (max-width: 768px) {
+   .banner .banner-content .text-2{
+        font-size: 35px;
+    }
+    .banner .banner-content .text-3{
+        font-size: 25px;
+    }
+    .banner .banner-content .text-1{
+        font-size: 20px;
+    }
+}
